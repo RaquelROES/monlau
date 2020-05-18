@@ -1289,7 +1289,15 @@ body:not(.edit) .bck-flipbox {
 }
 
 /*botonera general*/
-#actividad .class_slide .review {
+
+#actividad .class_slide {
+    padding-bottom: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+
+#actividad .class_slide .review { 
 	margin-top: 40px;
 	text-align: left;
 	margin-left: 40px;
@@ -1395,6 +1403,12 @@ th {
 #actividad .carousel-inner .portada .item-container {
 	padding-bottom: 0px;
 }
+
+
+#actividad .carousel-inner .item-container {
+    background: #fff;
+}
+
 #actividad .carousel-inner .item-container.aux-bckg .class_slide {
 	background-color: transparent;
 }
