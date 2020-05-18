@@ -126,7 +126,7 @@ body {
 	font-size: 1.8rem;
 	font-weight: normal;
 	text-align: left;
-	font-family: Campton;
+	font-weight: lighter;
 }
 
 .slide-wrapper {
@@ -175,31 +175,37 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 	background: #31A2C7;
 }
 
+#indice .unit-content .header {
+    background: #003E8A !important;
+}
 
 #indice .unit-content .header .title {
-	color: #fff;
-	background: transparent;
-	float: left;
-	font-size: 28px;
-	font-weight: 700;
-	line-height: 34px;
-	padding: 5px 20px;
-	height: 88px;
-	margin: 5px 140px 20px 8px;
-	overflow: hidden;
-	z-index: 1;
-	display: block;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	text-overflow: ellipsis;
+	    color: #fff;
+    float: left;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    padding: 5px 20px;
+    height: 145px;
+    margin: 5px 10px 20px 8px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
 }
 
 
 #book-index #indice .unit-content .actividades .item .title {
 	font-size: 14px;
+}
+
+#indice .unit-content .actividades .item .title {
+    max-width: 300px;
 }
 
 #indice .unit-content .actividades .item .nota {
@@ -258,11 +264,15 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 }
 
 #actividad .content .header .title h3 {
-	color: #fff;
-	background: #333;
-	width: 100%;
-	padding: 13px;
+	color: #0071C4;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #0071C4;
+    padding: 0px 30px 4px 0px;
+    font-weight: 300;
+    font-size: 30px;
 }
+
 #actividad .content .header .title h3::before{
 	content: '';
 	display: none;
@@ -279,13 +289,21 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 
 .monlau-navbar {
 	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	height: 50px;
-	border-bottom: 1px solid black;
-	background: #545759;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    border-bottom: 4px solid #0071C4;
+    background: #0091d0;
+}
+
+#swipeview-slider .swipeview-active .item {
+    background: #0091d03b
+}
+
+.libro-left ul li .title:before {
+    display: none;
 }
 
 .logo-publisher {
@@ -441,9 +459,14 @@ body.is_app .monlau-navbar.ocultar {
 
 .bck-title-3 {
 	font-family: Campton light;
-	font-weight: 100;
-	font-size: 1.7rem;
-	border-bottom: none;
+    font-weight: 100;
+    color: #0071C4;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #0071C4;
+    padding: 0px 30px 4px 0px;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 .bck-title-4 {
@@ -536,14 +559,14 @@ body.is_app .monlau-navbar.ocultar {
 #actividad .content .workspace ul li .bck-ul li::before,
 #actividad .popover-background.shown .popover-content>ul>li::before {
 	content: "";
-	height: 6px;
-	width: 6px;
-	background-color: #333;
-	color: #333;
-	border-radius: 50%;
-	position: absolute;
-	margin-top: .6em;
-	margin-left: -10px;
+    height: 6px;
+    width: 6px;
+    background-color: #0091D0;
+    color: #0091D0;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: .6em;
+    margin-left: -10px;
 }
 
 #actividad .content .cke_contents .bck-ol li:before,
@@ -717,38 +740,26 @@ body.is_app .monlau-navbar.ocultar {
 .bck-box.bck-box-1:after {
 	display: none;
 }
-.bck-box-1 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 20px;
-	background-image: url(imagenes_difusion/img_multi.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: 10px;
-	left: 17px;
-}
 
 .bck-box .bck-box-1 {
-	min-height: 80px;
-	margin-top: 20px;
+	border: 1px solid #0071C4;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #fff;
+    min-height: 247px;
 }
 
 .bck-box-1 .bck-title {
 	color: #fff;
-	font-size: 2rem;
-	text-align: left;
-	background-color: #808080;
-	padding: 10px;
-	padding-left: 70px;
+    font-weight: 300;
+    background-color: #0071C4;
+    padding: 10px;
 }
 
 .bck-box.bck-box-1 .bck-content {
-	padding: 10px;
+	  padding: 10px 20px;
 }
 
-.bck-box-1 {
-	background: #E5E5E5;
-}
 
 /*CAJA2*/
 .bck-box.bck-box-2 {
@@ -1093,12 +1104,130 @@ body.is_app .monlau-navbar.ocultar {
 	transition: all ease-in-out .5s;
 }
 
+/*FIP-BOX*/
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0091d0+0,0071c4+100 */ background: #0091d0;
+    background: -moz-radial-gradient(center, ellipse cover, #0091d0 0%, #0071c4 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #0091d0 0%,#0071c4 100%);
+    background: radial-gradient(ellipse at center, #0091d0 0%,#0071c4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0091d0', endColorstr='#0071c4',GradientType=1 );
+    cursor: pointer;
+}
+
+body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
+    border-width: 1px;
+    border-color: #0071C4;
+    min-height: 212px;
+    cursor: pointer;
+}
+
+body:not(.edit) .bck-flipbox-face.front {
+    color: #0071C4;
+   cursor: pointer;
+}
+
+body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
+    color: #0091D0;
+    text-align: center;
+    font-size: 17px;
+    vertical-align: middle;
+   cursor: pointer;
+}
+
+body:not(.edit) .bck-flipbox {
+    min-height: 185px;
+    margin-bottom: 20px;
+   cursor: pointer;
+}
+
 
 /*AJUSTES ACTIVIDADES*/
+
+/*Botones de actividades*/
+#actividad .content .review .attemps span {
+    width: auto;
+    height: auto;
+    font-weight: 300;
+    color: #0071C4;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 0px;
+    text-align: center;
+    padding: 0px;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 40px;
+}
+
+.btn-danger,
+.btn-danger[disabled] {
+    background-color: #E4A92B;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+    color: #E4A92B;
+    background-color: #fff;
+    border: 1px solid #E4A92B;
+}
+
+.btn-primary[disabled],
+.btn-primary[disabled]:focus {
+    color: #fff;
+    background-color: #0071C4;
+    border-color: transparent;
+}
+
+.btn-solution,
+.btn-solution.disabled,
+.btn-solution[disabled],
+.btn-next, .btn-next.disabled,
+.btn-next[disabled] {
+    background-color: #E4A92B;
+}
+
+.btn {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.btn-solution:hover,
+.btn-solution:focus,
+.btn-solution:active,
+.btn-next:hover,
+.btn-next:focus,
+.btn-next:active,
+.open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #e4a92b;
+    border-color: transparent;
+}
+
+.btn-primary:not([disabled]):hover,
+.btn-primary:not([disabled]):focus,
+.btn-primary:not([disabled]):active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #003E8A;
+}
+
+
+
 /*Verdadero y falso*/
 #actividad .workspace.true-false .tf-option {
 	display: inline-block;
 	margin-left: 50px;
+}
+
+#actividad .workspace.true-false li {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 /*Fill in the blanks*/
@@ -1110,17 +1239,37 @@ body.is_app .monlau-navbar.ocultar {
 
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_lista>ul {
-	display: inline-block;
+	display: unset;
 	min-height: 70px;
 	text-align: left;
 	margin-left: 47px;
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-	background: #fff;
-	padding-left: 10px;
-	padding-right: 10px;
+	 border: 1px solid #0071C4;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 }
+
+#actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+    border-bottom: 1px solid #0071C4;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 1px solid #0071C4;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .group-name-title {
+    display: table-cell;
+    vertical-align: middle;
+    color: #0071C4;
+    font-weight: 100;
+}
+
 
 /*tipo test*/
 
@@ -1204,6 +1353,18 @@ td,
 th {
 	padding-left: 10px;
 }
+
+.bck-table-center {
+    color: #fff;
+    margin: 0 auto;
+    background: #0091d0;
+    background: -moz-radial-gradient(center, ellipse cover, #0091d0 0%, #0071c4 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #0091d0 0%,#0071c4 100%);
+    background: radial-gradient(ellipse at center, #0091d0 0%,#0071c4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0091d0', endColorstr='#0071c4',GradientType=1 );
+}
+
+
 
 /*Boton toc - boton reininciar ejercicio*/
 .btn-primary {
@@ -1556,18 +1717,37 @@ th {
 	font-size: 2rem;
 }
 
+/*---------------------------------------------------- DESPLEGABLES --------------------------------------------------------------*/
+
+.bck-dropdown-content {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
 /*Dropdown 1*/
 .bck-dropdown.bck-dropdown-1 {
-	background-color: #9D9D9C;
+    background-color: #ffffff;
+    border: 1px solid #0091D0;
+    margin-top: 5px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.bck-dropdown .bck-dropdown-titulo {
+    color: #0091D0;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
-	background-color: #9D9D9C;
+	background-color: #fff;
+    color: #0091D0;
 }
 
 /*Dropdown 3*/
 .bck-dropdown.bck-dropdown-3 {
-	background-color: #00A4CC;
+	background: #fff;
+    text-align: right;
 	margin-top: 10px;
 }
 
@@ -1581,6 +1761,7 @@ th {
 	width: 35px;
 	height: 10px;
 	float: right;
+	color: #0091D0;
 }
 
 .bck-dropdown-3 .bck-dropdown-icon>.fa {
@@ -1598,16 +1779,21 @@ th {
 	font-weight: 800;
 }
 
+.bck-dropdown.bck-dropdown-3 .bck-dropdown-content  {
+    background: #fff;
+}
+
+
 .bck-dropdown-3 .bck-dropdown-titulo:before {
 	content: " ";
 	position: relative;
 	top: 13px;
 	left: 0;
-	padding: 22px;
-	margin-right: 20px;
 	background-size: contain;
 	background-image: url(imagenes_difusion/img_casablanca.png);
 	background-repeat: no-repeat;
+	padding: 0px;
+    margin-right: 0px;
 }
 
 .bck-dropdown-3 .bck-dropdown-content {
