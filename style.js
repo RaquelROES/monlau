@@ -9,9 +9,9 @@
 	monlauStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_nowyou',
+		bodyClassName: 'content_type_clase_monlau',
 		ckEditorStyles: {
-			name: 'nowyou',
+			name: 'monlau',
 			styles: [
 				{ name: 'Título Prepárate', element: 'h2', attributes: { 'class': 'bck-title bck-title-preparate'} },
 				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
@@ -191,7 +191,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'nowyou-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'monlau-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -390,7 +390,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'nowyou-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'monlau-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -478,7 +478,7 @@
 
 	monlauStyle.prototype = _.extend({}, new blink.theme.styles.basic(), monlauStyle.prototype);
 
-	blink.theme.styles['nowyou'] = monlauStyle;
+	blink.theme.styles['monlau'] = monlauStyle;
 
 })( blink );
 
