@@ -264,10 +264,10 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 }
 
 #actividad .content .header .title h3 {
-	color: #0071C4;
+	color: #60B967;
     background: #fff;
     width: 100%;
-    border-bottom: 1px solid #0071C4;
+    border-bottom: 1px solid #60B967;
     padding: 0px 30px 4px 0px;
     font-weight: 300;
     font-size: 30px;
@@ -294,7 +294,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     z-index: 100;
     width: 100%;
     height: 50px;
-    border-bottom: 4px solid #0071C4;
+    border-bottom: 4px solid #60B967;
     background: #0091d0;
 }
 
@@ -414,7 +414,7 @@ body.is_app .monlau-navbar.ocultar {
 /*título genérico*/
 
 .bck-title {
-	color: #0071C4;
+	color: #60B967;
 	font-size: 2.1rem;
 	border-bottom: none;
 	font-weight: inherit;
@@ -427,7 +427,7 @@ body.is_app .monlau-navbar.ocultar {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
-	background: #0071C4;
+	background: #60B967;
 	padding: 12px;
 	padding-left: 25px;
 }
@@ -435,7 +435,7 @@ body.is_app .monlau-navbar.ocultar {
 /*título 1*/
 
 .bck-title-1 {
-	color: #0071C4;
+	color: #60B967;
 	font-size: 2.6rem;
 	padding-bottom: 5px;
 	font-weight: bold;
@@ -445,7 +445,7 @@ body.is_app .monlau-navbar.ocultar {
 /*título 2*/
 
 .bck-title-2 {
-	color: #0071C4;
+	color: #60B967;
 	font-size: 2.3rem;
 	padding-bottom: 5px;
 	font-weight: bold;
@@ -456,10 +456,10 @@ body.is_app .monlau-navbar.ocultar {
 
 .bck-title-3 {
     font-weight: 100;
-    color: #0071C4;
+    color: #60B967;
     background: #fff;
     width: 100%;
-    border-bottom: 1px solid #0071C4;
+    border-bottom: 1px solid #60B967;
     padding: 0px 30px 4px 0px;
     font-weight: 300;
     font-size: 24px;
@@ -475,7 +475,7 @@ body.is_app .monlau-navbar.ocultar {
 /*--------------------------------ENFASIS----------------------------------*/
 
 .bck-enfasis {
-	color: #0071C4;
+	color: #60B967;
 	font-weight: bold;
 }
 
@@ -704,7 +704,7 @@ body.is_app .monlau-navbar.ocultar {
 /*CAJA1*/
 
 .bck-box .bck-box-1 {
-	border: 1px solid #0071C4;
+	border: 1px solid #60B967;
     margin: auto;
     margin-bottom: 20px;
     background: #fff;
@@ -714,13 +714,13 @@ body.is_app .monlau-navbar.ocultar {
 .bck-box-1 .bck-title {
 	color: #fff;
     font-weight: 300;
-    background-color: #0071C4;
+    background-color: #60B967;
     padding: 10px;
 }
 
 .bck-box.bck-box-1 .bck-content {
 	  padding: 10px 20px;
-	  border: 1px solid #0071C4;
+	  border: 1px solid #60B967;
 }
 
 
@@ -735,7 +735,7 @@ body.is_app .monlau-navbar.ocultar {
 /*CAJA2*/
 .bck-box.bck-box-2 {
 	background: transparent;
-	border: 3px dotted #0071C4;
+	border: 3px dotted #60B967;
 	margin-top: 20px;
 	border-radius: 0px;
 }
@@ -754,7 +754,7 @@ body.is_app .monlau-navbar.ocultar {
 /*CAJA 3*/
 .bck-box.bck-box-3 {
 	background: #fff;
-	border: 2px solid #0071C4;
+	border: 2px solid #60B967;
 	text-align: left;
 }
 
@@ -781,7 +781,7 @@ body.is_app .monlau-navbar.ocultar {
 }
 
 .bck-box-4 .bck-title {
-    border: 2px solid #0071C4;
+    border: 2px solid #60B967;
 	padding: 10px 25px;
 	border: 0px;
 	color: #9D9D9C;
@@ -810,7 +810,7 @@ body.is_app .monlau-navbar.ocultar {
 
 .bck-box-5 .bck-title {
 	border-bottom: 0px solid #eee;
-	color: #0071C4;
+	color: #60B967;
 	font-size: 2.1rem;
 	font-weight: bold;
 	padding: 10px;
@@ -915,13 +915,13 @@ body:not(.edit) .bck-flipbox-face.back {
 
 body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
     border-width: 1px;
-    border-color: #0071C4;
+    border-color: #60B967;
     min-height: 212px;
     cursor: pointer;
 }
 
 body:not(.edit) .bck-flipbox-face.front {
-    color: #0071C4;
+    color: #60B967;
    cursor: pointer;
 }
 
@@ -947,7 +947,7 @@ body:not(.edit) .bck-flipbox {
     width: auto;
     height: auto;
     font-weight: 300;
-    color: #0071C4;
+    color: #60B967;
     background-color: #fff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -978,7 +978,7 @@ body:not(.edit) .bck-flipbox {
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
     color: #fff;
-    background-color: #0071C4;
+    background-color: #60B967;
     border-color: transparent;
 }
 
@@ -1045,18 +1045,18 @@ body:not(.edit) .bck-flipbox {
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-	 border: 1px solid #0071C4;
+	 border: 1px solid #60B967;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
-    border-bottom: 1px solid #0071C4;
+    border-bottom: 1px solid #60B967;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 1px solid #0071C4;
+    border: 1px solid #60B967;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -1065,7 +1065,7 @@ body:not(.edit) .bck-flipbox {
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-title {
     display: table-cell;
     vertical-align: middle;
-    color: #0071C4;
+    color: #60B967;
     font-weight: 100;
 }
 
@@ -1534,7 +1534,7 @@ th {
 .bck-dropdown-2 .fa-chevron-up:before, .bck-dropdown-2 .fa-chevron-down:before {
     content: "\f15b";
     font-size: 2.0rem;
-    color: #0071C4;
+    color: #60B967;
 }
 
 .bck-dropdown-2 .bck-dropdown-button {
