@@ -74,15 +74,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 	color: #fff;
 }
 
-#list-units .unittag_textbook_proyectos {
+#list-units .unittag_textbook_monlau {
 	background: #31a2c7 !important;
 }
 
-#list-units .unittag_textbook_proyectos:hover {
+#list-units .unittag_textbook_monlau:hover {
 	background: #3333337d !important;
 }
 
-.units ul#list-units .unittag_textbook_proyectos a .title {
+.units ul#list-units .unittag_textbook_monlau a .title {
 	color: #ffffff;
 }
 
@@ -249,7 +249,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: #ccc;
 }
 
-.proyectos-navbar h3 {
+.monlau-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -277,7 +277,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     background: #fff;
 }
 
-.proyectos-navbar {
+.monlau-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -293,25 +293,25 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: none;
 }
 
-body.is_app .proyectos-navbar {
+body.is_app .monlau-navbar {
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
 	-moz-transition: top 0.5s linear;
 	transition: top 0.5s linear;
 }
 
-body.is_app .proyectos-navbar.ocultar {
+body.is_app .monlau-navbar.ocultar {
 	top: -136px;
 }
 
-.proyectos-navbar .navbar-content {
+.monlau-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.proyectos-navbar .copyright {
+.monlau-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
@@ -1245,15 +1245,15 @@ th {
 
 /*TAGS*/
 /*Tag verde*/
-.activitytag_verde_proyectos #actividad .content .header .title h3 {
+.activitytag_verde_monlau #actividad .content .header .title h3 {
 	background: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-title-1 {
+.activitytag_verde_monlau .bck-title-1 {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-title-preparate {
+.activitytag_verde_monlau .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1262,116 +1262,116 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-5 {
+.activitytag_verde_monlau .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #556f3526;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-3 {
+.activitytag_verde_monlau .bck-box.bck-box-3 {
 	border: 3px dotted #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box-3 .bck-title:before {
+.activitytag_verde_monlau .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_verde.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_verde_monlau .bck-box.bck-box-3 .bck-title {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-4 {
+.activitytag_verde_monlau .bck-box.bck-box-4 {
 	border: 3px dotted #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box-4 .bck-title:before {
+.activitytag_verde_monlau .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_verde.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_verde_monlau .bck-box.bck-box-4 .bck-title {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-enfasis-8 {
+.activitytag_verde_monlau .bck-enfasis-8 {
 	background-color: #556F35;
 }
 
 /*Tag negra*/
-.activitytag_negra_proyectos #actividad .content .header .title h3 {
+.activitytag_negra_monlau #actividad .content .header .title h3 {
 	background: #333;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-3 {
+.activitytag_negra_monlau .bck-box.bck-box-3 {
 	border: 3px dotted #000000;
 }
 
-.activitytag_negra_proyectos .bck-box-3 .bck-title:before {
+.activitytag_negra_monlau .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_negra.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_negra_monlau .bck-box.bck-box-3 .bck-title {
 	color: #000000;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-4 {
+.activitytag_negra_monlau .bck-box.bck-box-4 {
 	border: 3px dotted #000000;
 }
 
-.activitytag_negra_proyectos .bck-box-4 .bck-title:before {
+.activitytag_negra_monlau .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_negra.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_negra_monlau .bck-box.bck-box-4 .bck-title {
 	color: #000000;
 }
 
 /*Tag gold*/
-.activitytag_gold_proyectos .bck-box.bck-box-3 {
+.activitytag_gold_monlau .bck-box.bck-box-3 {
 	border: 3px dotted #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box-3 .bck-title:before {
+.activitytag_gold_monlau .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_gold.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_gold_monlau .bck-box.bck-box-3 .bck-title {
 	color: #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-4 {
+.activitytag_gold_monlau .bck-box.bck-box-4 {
 	border: 3px dotted #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box-4 .bck-title:before {
+.activitytag_gold_monlau .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_gold.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_gold_monlau .bck-box.bck-box-4 .bck-title {
 	color: #E2C95F;
 }
 
 /*Tag azul*/
 
-.activitytag_azul_proyectos #actividad .content .header .title h3 {
+.activitytag_azul_monlau #actividad .content .header .title h3 {
 	background: #3B5A65;
 }
 
-.activitytag_azul_proyectos .bck-title-1 {
+.activitytag_azul_monlau .bck-title-1 {
 	color: #3B5A65;
 }
 
-.activitytag_azul_proyectos .bck-title-preparate {
+.activitytag_azul_monlau .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1380,48 +1380,48 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-3 {
+.activitytag_azul_monlau .bck-box.bck-box-3 {
 	border: 3px dotted #385963;
 }
 
-.activitytag_azul_proyectos .bck-box-3 .bck-title:before {
+.activitytag_azul_monlau .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_azul.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_azul_monlau .bck-box.bck-box-3 .bck-title {
 	color: #385963;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-4 {
+.activitytag_azul_monlau .bck-box.bck-box-4 {
 	border: 3px dotted #385963;
 }
 
-.activitytag_azul_proyectos .bck-box-4 .bck-title:before {
+.activitytag_azul_monlau .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_azul.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_azul_monlau .bck-box.bck-box-4 .bck-title {
 	color: #385963;
 }
 
-.activitytag_azul_proyectos .bck-enfasis-8 {
+.activitytag_azul_monlau .bck-enfasis-8 {
 	background-color: #385963;
 }
 
 /*Tag verde claro*/
-.activitytag_verdeclaro_proyectos #actividad .content .header .title h3 {
+.activitytag_verdeclaro_monlau #actividad .content .header .title h3 {
 	background: #00943C;
 }
 
-.activitytag_verdeclaro_proyectos .bck-title-1 {
+.activitytag_verdeclaro_monlau .bck-title-1 {
 	color: #00943C;
 }
 
-.activitytag_verdeclaro_proyectos .bck-title-preparate {
+.activitytag_verdeclaro_monlau .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1430,22 +1430,22 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_verdeclaro_proyectos .bck-box.bck-box-5 {
+.activitytag_verdeclaro_monlau .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #00943c40;
 	top: -20px;
 }
 
 /*tag rojo*/
-.activitytag_rojo_proyectos #actividad .content .header .title h3 {
+.activitytag_rojo_monlau #actividad .content .header .title h3 {
 	background: #D73534;
 }
 
-.activitytag_rojo_proyectos .bck-title-1 {
+.activitytag_rojo_monlau .bck-title-1 {
 	color: #D73534;
 }
 
-.activitytag_rojo_proyectos .bck-title-preparate {
+.activitytag_rojo_monlau .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1454,41 +1454,41 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_rojo_proyectos .bck-box.bck-box-5 {
+.activitytag_rojo_monlau .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #d7353430;
 	top: -20px;
 }
 
 /*activity tag morado*/
-.activitytag_morado_proyectos #actividad .content .header .title h3 {
+.activitytag_morado_monlau #actividad .content .header .title h3 {
 	background: #853F57;
 }
 
-.activitytag_morado_proyectos .bck-title-1 {
+.activitytag_morado_monlau .bck-title-1 {
 	color: #853F57;
 	font-size: 2.3rem;
 	padding-bottom: 5px;
 	margin-left: 0;
 }
 
-.activitytag_morado_proyectos .bck-title-preparate {
+.activitytag_morado_monlau .bck-title-preparate {
 	background: #853F57;
 }
 
 
-.activitytag_morado_proyectos .bck-box.bck-box-5 {
+.activitytag_morado_monlau .bck-box.bck-box-5 {
 	background-color: #853f5754;
 
 }
 
 /*tag naranja*/
-.activitytag_naranja_proyectos #actividad .content .header .title h3 {
+.activitytag_naranja_monlau #actividad .content .header .title h3 {
 	background: #E07C3E;
 }
 
 /*WB*/
-.activitytag_wb_proyectos #actividad .content .header .title h3 {
+.activitytag_wb_monlau #actividad .content .header .title h3 {
 	background: #50748A;
 }
 
