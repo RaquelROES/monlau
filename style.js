@@ -1,21 +1,21 @@
 (function (blink) {
 	'use strict';
 
-	var proyectosStyle = function () {
+	var monlauStyle = function () {
 			blink.theme.styles.mcgrawhill.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	proyectosStyle.prototype = {
+	monlauStyle.prototype = {
 		parent: blink.theme.styles.mcgrawhill.prototype,
-		bodyClassName: 'content_type_clase_proyectos',
+		bodyClassName: 'content_type_clase_monlau',
 		toolbar: {
 			name: 'editorial',
 			items: ['Blink_popover']
 		},
 		extraPlugins: ['blink_popover'],
 		ckEditorStyles: {
-			name: 'proyectos',
+			name: 'monlau',
 			styles: [
 				{ name: 'Título Prepárate', element: 'h2', attributes: { 'class': 'bck-title bck-title-preparate'} },
 				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
@@ -69,7 +69,7 @@
 		},
 
 		formatCarouselindicators: function () {
-			this.parent.formatCarouselindicators.call(this.parent, this, 'proyectos-navbar');
+			this.parent.formatCarouselindicators.call(this.parent, this, 'monlau-navbar');
 		},
 
 		showBookIndexInClass: function () {
@@ -77,7 +77,7 @@
 		},
 
 		animateNavbarOnScroll: function () {
-			this.parent.animateNavbarOnScroll.call(this.parent, this, 'proyectos-navbar');
+			this.parent.animateNavbarOnScroll.call(this.parent, this, 'monlau-navbar');
 		},
 
 		activityDropdown: function () {
@@ -89,8 +89,8 @@
 
 	};
 
-	proyectosStyle.prototype = _.extend({}, new blink.theme.styles.mcgrawhill(), proyectosStyle.prototype);
+	monlauStyle.prototype = _.extend({}, new blink.theme.styles.mcgrawhill(), monlauStyle.prototype);
 
-	blink.theme.styles['proyectos'] = proyectosStyle;
+	blink.theme.styles['monlau'] = monlauStyle;
 
 })(blink);
