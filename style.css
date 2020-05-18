@@ -760,8 +760,8 @@ body.is_app .monlau-navbar.ocultar {
 
 .bck-box.bck-box-3 .bck-content {
 	padding: 4px 10px 15px;
-	width: 80%;
-	margin-left: 40px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bck-box.bck-box-3 .bck-title {
@@ -778,21 +778,21 @@ body.is_app .monlau-navbar.ocultar {
 .bck-box.bck-box-4 {
 	min-height: 80px;
 	margin-top: 15px;
+	border: 1px solid #60B967;
 }
 
 .bck-box-4 .bck-title {
-    border: 2px solid #60B967;
 	padding: 10px 25px;
 	border: 0px;
-	color: #9D9D9C;
+	color: #60B967;
 	font-size: 1.8rem;
 	font-weight: bold;
 }
 
 .bck-box.bck-box-4 .bck-content {
 	padding: 4px 10px 15px;
-	width: 80%;
-	margin-left: 40px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bck-box.bck-box-4 {
@@ -803,10 +803,6 @@ body.is_app .monlau-navbar.ocultar {
 
 
 /*CAJA5*/
-.bck-box.bck-box-5 {
-	min-height: 0;
-	margin-top: 15px;
-}
 
 .bck-box-5 .bck-title {
 	border-bottom: 0px solid #eee;
@@ -817,9 +813,10 @@ body.is_app .monlau-navbar.ocultar {
 }
 
 .bck-box.bck-box-5 {
+    min-height: 0;
+	margin-top: 15px;
 	padding: 10px;
-	background-color: #D1E3F0;
-	top: -20px;
+	background-color: #60b96729;
 }
 
 
@@ -830,9 +827,14 @@ body.is_app .monlau-navbar.ocultar {
 	color: #728fa6;
 }
 
+.info-popover .popover-title:before, .popover-template .popover-title:before {
+    color: #fff;
+    background: transparent;
+}
+
 .info-popover .popover-title,
 .popover-template .popover-title {
-	background: #728fa6;
+	background: #41BEA2;
 }
 
 .info-template .info-title {
@@ -1603,7 +1605,7 @@ th {
 
 
 .fa-times:before {
-	color: #333;
+	color: #fff;
 }
 
 @media screen and (max-width: 1024px){
