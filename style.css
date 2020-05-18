@@ -294,12 +294,12 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     z-index: 100;
     width: 100%;
     height: 50px;
-    border-bottom: 4px solid #60B967;
-    background: #0091d0;
+    border-bottom: 4px solid #41BEA2;
+    background:#41BEA2;
 }
 
 #swipeview-slider .swipeview-active .item {
-    background: #0091d03b
+    background: #60b96729;
 }
 
 .libro-left ul li .title:before {
