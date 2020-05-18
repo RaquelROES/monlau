@@ -1,31 +1,3 @@
-/* Fonts */
-
-@font-face {
-	font-family: Campton;
-	font-weight: 100;
-	src: url('fonts/Campton-Light.otf');
-}
-
-@font-face {
-	font-family: Campton;
-	font-weight: bold;
-	src: url('fonts/Campton-Bold.otf');
-
-}
-
-@font-face {
-	font-family: Campton;
-	font-weight: normal;
-	src: url(fonts/Campton-Book.otf);
-}
-
-@font-face {
-	font-family: Campton light;
-	font-weight: 100;
-	src: url('fonts/Campton-Light.otf');
-}
-
-
 b,
 strong {
 	font-weight: bold;
@@ -574,7 +546,6 @@ body.is_app .monlau-navbar.ocultar {
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter) ".";
-	font-family: Campton;
 	font-weight: bold;
 	position: absolute;
 	text-align: right;
@@ -617,8 +588,6 @@ body.is_app .monlau-navbar.ocultar {
 	text-align: right;
 	left: -30px;
 	width: 29px;
-	font-family: Campton;
-
 }
 
 /*LISTA ORDENADA 3*/
@@ -853,7 +822,6 @@ body.is_app .monlau-navbar.ocultar {
 .fa-info:before {
 	content: "+";
 	font-weight: bold;
-	font-family: Campton;
 	font-size: 2.2rem;
 	line-height: 20px;
 	color: #333;
