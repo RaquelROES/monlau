@@ -1528,6 +1528,20 @@ th {
     color: #0091D0;
 }
 
+
+/*Dropdown 2*/
+
+.bck-dropdown-2 .fa-chevron-up:before, .bck-dropdown-2 .fa-chevron-down:before {
+    content: "\f15b";
+    font-size: 2.0rem;
+    color: #0071C4;
+}
+
+.bck-dropdown-2 .bck-dropdown-button {
+    background: #fff;
+    border: 1px solid #dcdada;
+}
+
 /*Dropdown 3*/
 .bck-dropdown.bck-dropdown-3 {
 	background: #fff;
@@ -1586,95 +1600,7 @@ th {
 	max-height: 800%;
 }
 
-/*Dropdown 4*/
-.bck-dropdown.bck-dropdown-4 {
-	background-color: #808080;
-	margin-top: 10px;
-}
 
-.bck-dropdown-4 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
-}
-
-.bck-dropdown-4 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
-}
-
-.bck-dropdown-4 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
-}
-
-.bck-dropdown-4 .fa-chevron-up:before,
-.bck-dropdown-4 .fa-chevron-down:before {
-	font-size: 1.8rem;
-}
-
-.bck-dropdown-4 .bck-dropdown-titulo {
-	font-size: 1.8rem;
-	padding-left: 8px;
-	font-weight: 800;
-}
-
-.bck-dropdown-4 .bck-dropdown-titulo:before {
-	content: " ";
-	position: relative;
-	top: 15px;
-	left: 0;
-	padding: 20px;
-	margin-right: 20px;
-	background-size: contain;
-	background-image: url(imagenes_difusion/img_multi.png);
-	background-repeat: no-repeat;
-}
-
-.bck-dropdown-4 .bck-dropdown-content {
-	background-color: #E5E5E5;
-	padding-left: 25px;
-	max-height: 800%;
-}
-
-/*Dropdown 5*/
-.bck-dropdown.bck-dropdown-5 {
-	background-color: #333;
-	margin-top: 10px;
-}
-
-.bck-dropdown-5 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
-}
-
-.bck-dropdown-5 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
-}
-
-.bck-dropdown-5 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
-}
-
-.bck-dropdown-5 .fa-chevron-up:before,
-.bck-dropdown-5 .fa-chevron-down:before {
-	font-size: 1.8rem;
-}
-
-.bck-dropdown-5 .bck-dropdown-titulo {
-	font-size: 1.8rem;
-	padding-left: 8px;
-	font-weight: 800;
-}
-
-.bck-dropdown-5 .bck-dropdown-content {
-	background-color: #E5E5E5;
-	padding-left: 25px;
-	max-height: 800%;
-}
 
 .fa-times:before {
 	color: #333;
