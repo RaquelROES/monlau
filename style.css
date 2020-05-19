@@ -226,11 +226,8 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 
 #book-index #indice .unit-content .actividades .item {
-	background: #87bacc;
+	background: #facc23;
 }
-
-
-
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
@@ -1645,7 +1642,6 @@ th {
 	padding-left: 17px;
 	max-height: 800%;
 }
-
 
 
 .fa-times:before {
