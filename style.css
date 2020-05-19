@@ -1162,14 +1162,12 @@ th {
 
 
 /*Boton toc - boton reininciar ejercicio*/
-.btn-primary {
-	background-color: #60B967;
-}
+
 
 .btn-primary,
 .btn-primary.disabled,
 .btn-primary.disabled:focus {
-	background-color: #31A2C7;
+	background-color: #60B967;
 	border-radius: 0;
 }
 
