@@ -155,11 +155,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     background: #E4A92B;
 }
 
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active, #book-index #indice .unit-content .actividades .item.active, #book-index #indice .unit-content .actividades .item.current {
+body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
+#book-index #indice .unit-content .actividades .item.active,
+#book-index #indice .unit-content .actividades .item.current {
         background: #e4ba1f;
    }
 
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+#book-index #indice .units ul li.active a {
     background: #af8120;
 }
 
