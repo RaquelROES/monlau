@@ -37,6 +37,11 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     background: #E4A92B;
 }
 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+#indice .units ul li:hover:not(.disabled) {
+    background: #E4A92B;
+}
+
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     font-size: 18px;
