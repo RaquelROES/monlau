@@ -144,8 +144,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 #book-index .col-main {
-	background: #31A2C7;
+	background: #FACC23;
 }
+
+
+#book-index .col-indice {
+    background: #E4A92B;
+}
+
 
 #indice .unit-content .header {
     background: #003E8A !important;
