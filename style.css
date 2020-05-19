@@ -907,6 +907,58 @@ body:not(.edit) .bck-flipbox {
 
 /*AJUSTES ACTIVIDADES*/
 
+/*ORDENAR*/
+#actividad .workspace.ordenar .js-rank-item {
+    border: 1px solid #60B967;
+    }
+
+
+/*RELACIONAR*/
+#actividad .workspace.matching .opcion {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid #60B967;
+}
+
+
+/*MARCAR PALABRAS*/
+#actividad .markword-active {
+    border-radius: 0PX!important;
+    padding: 4px !important;
+    border: 1px solid #60B967!important;
+}
+
+#actividad .markword-correct {
+    padding: 4px !important;
+    color: #78bb31 !important;
+    background-color: #d8efbe !important;
+    border-radius: 0PX !important;
+    border: 1px solid #60B967 !important;
+}
+
+#actividad .markword-false {
+    border-radius: 0px !important;
+}
+
+
+/*ARRASTRAR IMÁGENES*/
+.fillblankimages-draggable-wrapper .response {
+    border: none;
+}
+
+
+/*RESPUESTA MULTIPLE*/
+#actividad .workspace.multiple-choice .opcion {
+	border: 1px solid #60B967;
+}
+
+/*RELLENAR ESPACIOS*/
+.fillblanks-draggable-wrapper .response {
+    border: 1px solid #60B967;
+}
+   
+
 /*Botones de actividades*/
 #actividad .content .review .attemps span {
     width: auto;
@@ -1576,4 +1628,3 @@ th {
 		left: 48%;
 	}
 }
-
