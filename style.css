@@ -36,11 +36,6 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	font-weight: bold;
 }
 
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
-#indice .units ul li:hover:not(.disabled) {
-	background: #b7b7b7;
-
-}
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 	color: #fff;
@@ -937,6 +932,13 @@ body:not(.edit) .bck-flipbox {
 
 
 /*AJUSTES ACTIVIDADES*/
+
+
+/*imagenes a huecos*/
+.slide_main .fillblankimages-draggable .img-input-container {
+    min-height: 80px;
+    min-width: 80px;
+}
 
 /*ORDENAR*/
 #actividad .workspace.ordenar .js-rank-item {
