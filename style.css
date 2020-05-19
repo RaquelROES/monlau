@@ -978,7 +978,7 @@ body:not(.edit) .bck-flipbox {
 .btn-primary:not([disabled]):active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #003E8A;
+    background-color: #41BEA2;
 }
 
 
@@ -1111,7 +1111,7 @@ th {
 
 /*Boton toc - boton reininciar ejercicio*/
 .btn-primary {
-	background-color: #428bcac9;
+	background-color: #60B967;
 }
 
 .btn-primary,
