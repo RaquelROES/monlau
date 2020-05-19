@@ -172,7 +172,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 }
 
 #indice .unit-content .header .title {
-	    color: #fff;
+	color: #fff;
     float: left;
     font-size: 28px;
     font-weight: 300;
@@ -240,6 +240,13 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 	background: #31a2c75c;
 }
 
+
+body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
+#book-index #indice .unit-content .actividades .item.active,
+#book-index #indice .unit-content .actividades .item.current {
+    color: #000;
+    background: #e4ba1f;
+}
 
 .monlau-navbar h3 {
 	width: 75%;
