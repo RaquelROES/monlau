@@ -218,10 +218,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 }
 
 
-#indice .units ul li.active:not(.disabled),
-#indice .units ul li:focus:not(.disabled) {
-	background: #31A2C7;
-}
+
 
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
@@ -1672,4 +1669,3 @@ th {
 		left: 48%;
 	}
 }
-
