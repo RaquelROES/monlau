@@ -505,6 +505,7 @@ body.is_app .monlau-navbar.ocultar {
 /*LISTAS DESORDENADAS*/
 .texto_curso ul li {
 	padding-left: 20px;
+ 	margin-left: 20px;
 }
 
 .texto_curso ul li:before,
@@ -1156,8 +1157,8 @@ body:not(.edit) .bck-flipbox {
 
 #actividad .class_slide {
     padding-bottom: 20px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
