@@ -142,6 +142,9 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 	background: #b7b7b7;
 }
 
+.libro-left ul li a.book-index.active {
+    background-color: #E4A92B;
+}
 
 #book-index .col-main {
 	background: #FACC23;
