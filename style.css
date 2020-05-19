@@ -155,11 +155,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     background: #E4A92B;
 }
 
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
-#book-index #indice .unit-content .actividades .item.active,
-#book-index #indice .unit-content .actividades .item.current {
-        background: #e4ba1f;
-   }
 
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 #book-index #indice .units ul li.active a {
@@ -234,11 +229,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	background: #87bacc;
 }
 
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
-#book-index #indice .unit-content .actividades .item.active,
-#book-index #indice .unit-content .actividades .item.current {
-	background: #31a2c75c;
-}
+
 
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
@@ -246,6 +237,25 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.current {
     color: #000;
     background: #e4ba1f;
+}
+
+#book-index #indice .units ul li a .title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#book-index #indice .unit-content .content .title-buttons .btn {
+    font-size: 16px;
+    color: #666;
+}
+
+#book-index #indice .unit-content .content .title-buttons {
+   border-bottom: 1px solid #666; 
+}
+
+#book-index #indice .unit-content .actividades .item .title {
+    font-size: 15px;
 }
 
 .monlau-navbar h3 {
