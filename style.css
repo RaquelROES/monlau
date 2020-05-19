@@ -1556,6 +1556,10 @@ th {
     overflow-x: hidden;
 }
 
+.bck-dropdown-subtitulo {
+    display: none;
+}
+
 
 /*Dropdown 1*/
 .bck-dropdown.bck-dropdown-1 {
