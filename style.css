@@ -26,10 +26,23 @@ strong {
 }
 
 /*TOC*/
+
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-	background-color: #333 !important;
+    background: #E4A92B;
 }
+
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+#indice .units ul li:hover:not(.disabled) {
+    background: #E4A92B;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	font-size: 14px;
@@ -163,7 +176,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 #indice .unit-content .header {
-    background: #003E8A !important;
+    background: #60B967 !important;
 }
 
 #indice .unit-content .header .title {
@@ -189,6 +202,11 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 #book-index #indice .unit-content .actividades .item .title {
 	font-size: 14px;
+}
+
+#indice .unit-content .actividades .item .title {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 #indice .unit-content .actividades .item .title {
@@ -222,7 +240,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 #book-index #indice .unit-content a:focus,
 #indice .units ul li a:focus,
 #indice .actividades a:focus {
-	color: #31A2C7;
+	color: #E4A92B;
 }
 
 #book-index #indice .unit-content .actividades .item {
@@ -1642,6 +1660,7 @@ th {
 	padding-left: 17px;
 	max-height: 800%;
 }
+
 
 
 .fa-times:before {
